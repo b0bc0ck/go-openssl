@@ -137,7 +137,7 @@ func dialSession(d net.Dialer, network, addr string, ctx *Ctx, flags DialFlags,
 		return nil, err
 	}
 	if session != nil {
-		err := conn.setSession(session)
+		err := conn.SetSession(session)
 		if err != nil {
 			c.Close()
 			return nil, err
