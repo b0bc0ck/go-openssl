@@ -1,4 +1,4 @@
-module github.com/pexip/go-openssl
+module github.com/b0bc0ck/go-openssl
 
 require (
 	github.com/hashicorp/go-multierror v1.1.1
